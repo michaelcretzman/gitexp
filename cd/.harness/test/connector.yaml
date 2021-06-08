@@ -1,12 +1,11 @@
 connector:
   name: Docker
   identifier: Docker
-  description:
   orgIdentifier: default
   projectIdentifier: Doc_Git_Ex
   type: DockerRegistry
   spec:
-    dockerRegistryUrl: https://registry.hub.docker.com/v2/
+    dockerRegistryUrl: https://registry.hub.docker.com/v1/
     providerType: DockerHub
     auth:
       type: Anonymous
