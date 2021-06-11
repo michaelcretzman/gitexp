@@ -1,0 +1,12 @@
+connector:
+  name: doc-test-dockerhub
+  identifier: doctestdockerhub
+  description:
+  orgIdentifier: default
+  projectIdentifier: DocGitExp
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: https://registry.hub.docker.com/v2/
+    providerType: DockerHub
+    auth:
+      type: Anonymous
