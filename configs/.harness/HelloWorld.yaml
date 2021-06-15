@@ -1,0 +1,17 @@
+connector:
+  name: HelloWorld
+  identifier: HelloWorld
+  description:
+  orgIdentifier: default
+  projectIdentifier: DocGitExp
+  type: Github
+  spec:
+    url: https://github.com/michaelcretzman/helloworld.git
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: michaelcretzman
+          tokenRef: account.docmgr
+    type: Repo
